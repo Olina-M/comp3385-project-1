@@ -18,7 +18,7 @@
                         <p class="card-text my-0"><a href="{{ $property->location }}">{{ $property->location }}</a></p>
                         <p class="card-text my-0">{{ $property->price }}</p>
                     </div>
-                    <div class="card-footer d-grid" style="background-color: #03fcdf">
+                    <div class="card-footer d-grid" style="background-color: #32a897">
                         <a href="{{ route('properties.show', ['property_id' => $property->id]) }}" style="text-decoration: none; color: white"> View Property</a>
                     </div>
                 </div>
